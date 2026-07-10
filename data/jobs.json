@@ -1,0 +1,122 @@
+[
+  {
+    "id": "j001",
+    "title": "Frontend Developer",
+    "company": "Northwind Studio",
+    "location": "Remote",
+    "level": "Mid",
+    "required_skills": ["javascript", "react", "html_css", "git"],
+    "nice_to_have_skills": ["typescript", "testing_qa", "ui_design"],
+    "description": "Build and maintain customer-facing web interfaces, working closely with designers to ship polished, accessible UI."
+  },
+  {
+    "id": "j002",
+    "title": "Backend Engineer",
+    "company": "Ledgerworks",
+    "location": "Hyderabad, IN",
+    "level": "Mid",
+    "required_skills": ["node", "sql", "api_design", "git"],
+    "nice_to_have_skills": ["docker", "cloud_aws", "testing_qa"],
+    "description": "Design and scale REST APIs and data models powering a financial ledger platform."
+  },
+  {
+    "id": "j003",
+    "title": "Data Analyst",
+    "company": "Insight Metrics",
+    "location": "Bengaluru, IN",
+    "level": "Entry",
+    "required_skills": ["sql", "excel", "data_analysis", "statistics"],
+    "nice_to_have_skills": ["data_visualization", "python"],
+    "description": "Turn raw operational data into dashboards and recommendations for the operations leadership team."
+  },
+  {
+    "id": "j004",
+    "title": "Machine Learning Engineer",
+    "company": "Cortex Labs",
+    "location": "Remote",
+    "level": "Senior",
+    "required_skills": ["python", "machine_learning", "statistics", "sql"],
+    "nice_to_have_skills": ["cloud_aws", "docker", "data_visualization"],
+    "description": "Develop and productionize predictive models for a fraud-detection pipeline processing millions of transactions."
+  },
+  {
+    "id": "j005",
+    "title": "Product Manager",
+    "company": "Fieldstone",
+    "location": "Pune, IN",
+    "level": "Mid",
+    "required_skills": ["product_management", "communication", "problem_solving", "project_management"],
+    "nice_to_have_skills": ["data_analysis", "ux_research"],
+    "description": "Own the roadmap for a B2B SaaS product, translating customer feedback into shippable features."
+  },
+  {
+    "id": "j006",
+    "title": "UX Designer",
+    "company": "Northwind Studio",
+    "location": "Remote",
+    "level": "Mid",
+    "required_skills": ["ui_design", "ux_research", "communication"],
+    "nice_to_have_skills": ["html_css", "teamwork"],
+    "description": "Lead end-to-end design for mobile and web experiences, from research through hi-fidelity prototypes."
+  },
+  {
+    "id": "j007",
+    "title": "DevOps Engineer",
+    "company": "Ledgerworks",
+    "location": "Remote",
+    "level": "Senior",
+    "required_skills": ["docker", "kubernetes", "ci_cd", "cloud_aws"],
+    "nice_to_have_skills": ["linux", "node"],
+    "description": "Own CI/CD pipelines and cloud infrastructure for a fast-growing fintech platform."
+  },
+  {
+    "id": "j008",
+    "title": "Digital Marketing Specialist",
+    "company": "Brightleaf Co",
+    "location": "Chennai, IN",
+    "level": "Entry",
+    "required_skills": ["seo", "content_marketing", "social_media"],
+    "nice_to_have_skills": ["email_marketing", "data_analysis"],
+    "description": "Plan and run multi-channel campaigns to grow organic and paid acquisition."
+  },
+  {
+    "id": "j009",
+    "title": "QA Automation Engineer",
+    "company": "Cortex Labs",
+    "location": "Remote",
+    "level": "Mid",
+    "required_skills": ["testing_qa", "git", "problem_solving"],
+    "nice_to_have_skills": ["node", "python", "ci_cd"],
+    "description": "Build automated test suites and own release quality for a growing engineering team."
+  },
+  {
+    "id": "j010",
+    "title": "Business Analyst",
+    "company": "Fieldstone",
+    "location": "Mumbai, IN",
+    "level": "Entry",
+    "required_skills": ["excel", "communication", "problem_solving", "data_analysis"],
+    "nice_to_have_skills": ["sql", "financial_modeling"],
+    "description": "Bridge business stakeholders and delivery teams, documenting requirements and analyzing outcomes."
+  },
+  {
+    "id": "j011",
+    "title": "Mobile App Developer",
+    "company": "Brightleaf Co",
+    "location": "Remote",
+    "level": "Mid",
+    "required_skills": ["mobile_dev", "git", "api_design"],
+    "nice_to_have_skills": ["testing_qa", "ui_design"],
+    "description": "Ship features across iOS and Android for a consumer wellness app used by millions."
+  },
+  {
+    "id": "j012",
+    "title": "Sales Development Representative",
+    "company": "Insight Metrics",
+    "location": "Hyderabad, IN",
+    "level": "Entry",
+    "required_skills": ["sales", "communication", "customer_service"],
+    "nice_to_have_skills": ["crm", "email_marketing"],
+    "description": "Generate and qualify pipeline for the enterprise sales team through outbound prospecting."
+  }
+]

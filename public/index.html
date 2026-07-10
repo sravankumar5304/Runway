@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Runway — Job-Seeking Assistant</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="masthead">
+      <div class="wordmark">
+        <div class="glyph">RUN<span>WAY</span></div>
+        <div class="tagline">Interview training + job matching, in one place</div>
+      </div>
+      <div class="status-strip"><span class="dot"></span>Local session · no data leaves your machine</div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="profile">Profile &amp; Skills</button>
+      <button class="tab-btn" data-tab="jobs">Job Matches</button>
+      <button class="tab-btn" data-tab="interview">Interview Practice</button>
+    </nav>
+
+    <!-- PROFILE / SKILLS -->
+    <section class="panel-view active" id="panel-profile">
+      <div class="card">
+        <h2>Paste your resume or profile summary</h2>
+        <p class="hint">Runway scans the text for skill keywords it recognizes — no upload required, just paste plain text.</p>
+        <textarea id="resume-input" placeholder="e.g. Built React and Node.js applications, wrote SQL queries, led a small team using Agile/Scrum, comfortable with AWS and Docker..."></textarea>
+        <button class="btn" id="extract-btn">Extract skills</button>
+      </div>
+
+      <div class="card">
+        <h2>Your skill set</h2>
+        <p class="hint">Detected skills appear below. Add any Runway missed, or remove ones that don't apply.</p>
+        <div style="display:flex; gap:8px;">
+          <input type="text" id="manual-skill-input" placeholder="Type a skill and press Enter (e.g. python, leadership)" />
+        </div>
+        <div class="chip-row" id="skill-chips"><span class="hint" style="margin:0;">No skills yet — extract from your resume above, or add one manually.</span></div>
+      </div>
+    </section>
+
+    <!-- JOB MATCHES -->
+    <section class="panel-view" id="panel-jobs">
+      <div class="card">
+        <h2>Job Matches</h2>
+        <p class="hint">Ranked against your current skill set using a weighted overlap score (required skills count double).</p>
+        <button class="btn" id="match-btn">Find matches</button>
+      </div>
+      <div id="job-results"></div>
+    </section>
+
+    <!-- INTERVIEW PRACTICE -->
+    <section class="panel-view" id="panel-interview">
+      <div class="card">
+        <h2>Interview Practice</h2>
+        <p class="hint">Pick a question, type the answer you'd actually say out loud, and get structured feedback — no external AI call, fully rule-based and offline.</p>
+        <div class="category-select" id="category-select">
+          <button class="cat-btn active" data-cat="all">All</button>
+          <button class="cat-btn" data-cat="behavioral">Behavioral</button>
+          <button class="cat-btn" data-cat="general">General</button>
+          <button class="cat-btn" data-cat="technical">Technical</button>
+        </div>
+        <div class="interview-grid">
+          <div class="question-list" id="question-list"></div>
+          <div>
+            <div id="question-detail">
+              <p class="empty-state">Select a question to begin.</p>
+            </div>
+            <div id="feedback-mount"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="note">RUNWAY · sample job listings &amp; feedback rules are for demonstration and training purposes.</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

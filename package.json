@@ -1,0 +1,14 @@
+{
+  "name": "job-assist",
+  "version": "1.0.0",
+  "description": "A Job-Seeking Assistance System integrating interview training with job recommendation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
